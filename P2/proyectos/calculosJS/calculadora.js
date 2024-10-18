@@ -23,10 +23,12 @@ function operaciones(){
                     break;
         }
         let respuesta = document.getElementById("resultado")
-        respuesta.innerHTML=`<h3>${n1} ${valor} ${n2} = ${resultado}</h3>`;
+        respuesta.innerHTML=`<h2>${n1} ${valor} ${n2} = ${resultado}</h2>`;
     }
 
     else{
+        respuesta = document.getElementById("resultado")
+        respuesta.innerHTML=`<h2>Ingresa solo numeros por favor...</h2>`;
         alert('Ingresa solo numeros por favor...')
     }
 
